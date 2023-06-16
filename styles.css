@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ecf2f8;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  width: 730px;
+  background: #ffffff;
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+}
+
+.image {
+  width: 39%;
+  border-radius: 10px 0 0 10px;
+}
+
+.infos {
+  padding: 32px 40px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #48556a;
+}
+
+.about {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  color: #6e8098;
+  margin-top: 12px;
+}
+
+.bio {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  color: #48556a;
+}
+
+.date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  color: #9daec2;
+}
+
+.parent {
+  margin-left: 16px;
+}
+
+.icon-box {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ecf2f8;
+  display: flex;
+  margin-left: auto;
+}
+
+.icon {
+  margin: auto;
+}
